@@ -1,4 +1,4 @@
-The correct, default jumper configuration for a newly-assembled ZuluSCSI Compact Homebrew should be:
+組み立てたばかりのZuluSCSI Compact Homebrewの正しいデフォルトのジャンパー設定は次のようになります。
 
-* TERM_EN (Termination Enable) jumper must be ON, unless the ZuluSCSI is NOT at the end of a SCSI chain. If no other devices are on the SCSI bus besides your ZuluSCSI, TERM_EN must be jumpered ON.
-* Initiator jumper must be OFF. If the Initiator jumper is closed/on, the ZuluSCSI will not act as a hard drive, but will instead act as a SCSI initiator, looking for SCSI devices on the bus. If you want the ZuluSCSI to act as a standard hard drive, the initiator jumper MUST be left open/off.
+* ZuluSCSIがSCSIチェーンの末端にない場合を除き、TERM_EN（ターミネーション有効）ジャンパーをオンにする必要があります。ZuluSCSI以外にSCSIバス上に他のデバイスがない場合、TERM_ENはジャンパーをオンにする必要があります。
+* イニシエータジャンパーはオフにする必要があります。イニシエータジャンパーが閉じている/オンの場合、ZuluSCSIはハードドライブとして機能せず、代わりにSCSIイニシエータとして機能し、バス上のSCSIデバイスを探します。ZuluSCSIを標準のハードドライブとして機能させたい場合、イニシエータジャンパーは開いたまま/オフにする必要があります。

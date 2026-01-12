@@ -1,19 +1,19 @@
-##### Where to Buy ZuluSCSI
+##### ZuluSCSIの購入先
 
-#### United States
-* [Rabbit Hole Computing (Northern California)](https://shop.rabbitholecomputing.com/collections/zuluscsi) - Direct from the source
-* [SamplerZone.com (Tennessee)](https://samplerzone.com/collections/zuluscsi) - Specializes in Musical Samplers
-* [Amiga on the Lake (Oswego, NY)](https://amigaonthelake.com/rabbit-hole-computing/)
+#### 米国
+* [Rabbit Hole Computing (北カリフォルニア)](https://shop.rabbitholecomputing.com/collections/zuluscsi) - 開発元からの直接販売
+* [SamplerZone.com (テネシー州)](https://samplerzone.com/collections/zuluscsi) - 音楽サンプラー専門店
+* [Amiga on the Lake (ニューヨーク州オスウィーゴ)](https://amigaonthelake.com/rabbit-hole-computing/)
 
-#### Canada
+#### カナダ
 * [DECromancer.ca](https://decromancer.ca/zuluscsi)
 
-#### United Kingdom
-* [AmigaKit (Cardiff, UK)](https://amigakit.amiga.store/rabbit-hole-computing-m-51.html?aksid=en61363vm3hhjfuu1lgs0vh5f3&currency=EUR&aksid=en61363vm3hhjfuu1lgs0vh5f3)
+#### イギリス
+* [AmigaKit (イギリス、カーディフ)](https://amigakit.amiga.store/rabbit-hole-computing-m-51.html?aksid=en61363vm3hhjfuu1lgs0vh5f3&currency=EUR&aksid=en61363vm3hhjfuu1lgs0vh5f3)
 
-#### Germany / European Union
+#### ドイツ / EU
 * [Studio Services](https://studio-services.de/produkt-kategorie/scsi-massenspeicher-und-zubehoer/)
 
-#### Australia
+#### オーストラリア
 * [Juicy Crumb Systems](https://juicycrumb.com/product-category/scsi/zuluscsi/)
-  * As of December 2024, Juicy Crumb Systems now stocks  [ZuluSCSI Pico Slim](https://juicycrumb.com/product/zuluscsi-pico-slim-db25/?v=0b3b97fa6688) 
+  * 2024年12月現在、Juicy Crumb Systemsは[ZuluSCSI Pico Slim](https://juicycrumb.com/product/zuluscsi-pico-slim-db25/?v=0b3b97fa6688)の在庫を取り扱っています

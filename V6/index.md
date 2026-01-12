@@ -1,23 +1,22 @@
 <img src="/assets/img/ZuluSCSI_V6.4-Rev2024a.jpg" alt="ZuluSCSI V6.4 PCB" width="733" height="770">
 
 
-ZuluSCSI™ V6.4 is a SCSI computer storage emulation platform which is a descendent of SCSI2SD V6. Unlike ZuluSCSI V1 and ZuluSCSI RP2040, ZuluSCSI V6.4 uses a client-side configuration utility, [ZuluSCI-V6-util (Windows)](https://zuluscsi.com/V6/zuluscsi-v6-util-1.0-windows.zip) or [ZuluSCSI-V6-util (macOS)](https://github.com/ZuluSCSI/ZuluSCSI.com/blob/gh-pages/V6/ZuluSCSI-V6-util-macOS.zip), to configure SCSI devices, identical to that of SCSI2SD V6. 
+ZuluSCSI™ V6.4は、SCSI2SD V6の後継となるSCSIコンピュータストレージエミュレーションプラットフォームです。ZuluSCSI V1やZuluSCSI RP2040とは異なり、ZuluSCSI V6.4は、SCSI2SD V6と同様に、クライアント側の設定ユーティリティである[ZuluSCI-V6-util (Windows)](https://zuluscsi.com/V6/zuluscsi-v6-util-1.0-windows.zip)または[ZuluSCSI-V6-util (macOS)](https://github.com/ZuluSCSI/ZuluSCSI.com/blob/gh-pages/V6/ZuluSCSI-V6-util-macOS.zip)を使用してSCSIデバイスを設定します。
 
-## Features
+## 特徴
 
-* [Open-source firmware](https://github.com/zuluscsi/zuluscsi-firmware), licensed under the GPLv3
-* Emulates up to 7 SCSI devices simultaneously, including CD-ROM, Magneto Optical, removable (SyQuest/Jaz-style), and SCSI floppy device types
-* Speaks both SCSI-1 and SCSI-2, including 10MB/sec Fast SCSI
-* Up to 9.5 megabytes/second read AND write speeds
-* SCSI Termination is software-controlled, via ZuluSCSI-V6-util.exe
-* Firmware upgrade simplicity; As easy as copying a .uf2 file to the ZuluSCSI via USB.
-* External activity LED pin header for attaching remote activity LED
-* Designed to be powered via SCSI termination power, when provided by the host
-* Identical dimensions and mounting holes as that of SCSI2SD V6, V5.2, ZuluSCSI V1.1, and ZuluSCSI RP2040 Full Size
+* GPLv3の下でライセンスされた[オープンソースファームウェア](https://github.com/zuluscsi/zuluscsi-firmware)
+* CD-ROM、光磁気ディスク (MO)、リムーバブルメディア (SyQuest/Jazスタイル)、SCSIフロッピーなど、最大7台のSCSIデバイスを同時にエミュレート
+* SCSI-1とSCSI-2の両方に対応し、10MB/秒のFast SCSIを含む
+* 最大9.5メガバイト/秒の読み取りおよび**書き込み**速度
+* SCSIターミネーションはソフトウェア制御 (ZuluSCSI-V6-util.exe経由)
+* ファームウェアの更新は簡単です。USB経由で.uf2ファイルをZuluSCSIにコピーするだけです
+* リモートアクセスLEDを取り付けるための外部アクセスLEDピンヘッダー
+* ホストから供給される場合、SCSIターミネーションパワーでの動作が可能
+* SCSI2SD V6、V5.2、ZuluSCSI V1.1、およびZuluSCSI RP2040 Full Sizeと同一の寸法および取り付け穴
 
-### Origins and License
+### 起源とライセンス
 
-#### Firmware origins
+#### ファームウェアの起源
 
-The [ZuluSCSI™ V6.4 firmware](https://github.com/rabbitholecomputing/ZuluSCSI-V6-firmware) is derived from the original [SCSI2SD V6](http://www.codesrc.com/gitweb/index.cgi?p=SCSI2SD-V6.git;a=summary) firmware.
-
+[ZuluSCSI™ V6.4ファームウェア](https://github.com/rabbitholecomputing/ZuluSCSI-V6-firmware)は、オリジナルの[SCSI2SD V6](http://www.codesrc.com/gitweb/index.cgi?p=SCSI2SD-V6.git;a=summary)ファームウェアから派生しています。

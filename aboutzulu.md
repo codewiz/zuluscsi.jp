@@ -1,11 +1,11 @@
-# About ZuluSCSI
+# ZuluSCSIについて
 
-The ZuluSCSI family of SCSI emulation products is available  firmware looks for file names which adhere to a simple but powerful naming convention, and presents them as the drives to the SCSI host. Each image file represents a SCSI drive.
+ZuluSCSIファミリーのSCSIエミュレーション製品は、強力でありながらシンプルな命名規則に従ったファイル名をファームウェアが検索し、それらをSCSIホストにドライブとして提示します。各イメージファイルは1つのSCSIドライブを表します。
 
-ZuluSCSI is designed to power itself solely from SCSI termination power, with no separate power source needed, when the host device/computer provides SCSI termination power. Nearly all desktop Macintosh computers do, as well as the vast majority of other desktop systems with SCSI interfaces.
+ZuluSCSIは、ホストデバイス/コンピュータがSCSIターミネーションパワーを提供する場合、SCSIターミネーションパワーのみで動作するように設計されており、別途電源を用意する必要はありません。ほぼすべてのデスクトップMacintoshコンピュータや、SCSIインターフェイスを持つその他のデスクトップシステムの大部分がこれに該当します。
 
-ZuluSCSI RP2040 includes an optional DB25 pin header for direct installation of an external SCSI connector, in addition to the Single-Ended 50 pin IDC connector. The full-sized ZuluSCSI RP2040 shares the exact same dimensions and mounting holes as that of SCSI2SD V5.1, V5.2, and V6, and is therefore compatible with many existing SCSI2SD-V5.1, V5.2, and V6 mounting solutions.
+ZuluSCSI RP2040には、シングルエンド50ピンIDCコネクタに加えて、外部SCSIコネクタを直接取り付けるためのオプションのDB25ピンヘッダーが含まれています。フルサイズのZuluSCSI RP2040は、SCSI2SD V5.1、V5.2、およびV6とまったく同じ寸法と取り付け穴を共有しており、多くの既存のSCSI2SD-V5.1、V5.2、およびV6取り付けソリューションと互換性があります。
 
-ZuluSCSI RP2040 can deliver up to 9.5 megabytes/second, and maximum write speeds of approximately 6 megabytes/second. Throughput rates can be affected by particularly slow (eg. 8MHz 68000) CPUs. SCSI controllers can be, and often are, bottlenecks. Since ZuluSCSI uses the same SCSI command handling code as SCSI2SD V6, compatibility with nearly all devices that speak both SCSI-1 and SCSI-2 is extremely high.
+ZuluSCSI RP2040は、最大9.5メガバイト/秒の読み取り速度、約6メガバイト/秒の最大書き込み速度を実現できます。スループット率は、特に遅いCPU（例：8MHz 68000）の影響を受ける可能性があります。SCSIコントローラがボトルネックになることもよくあります。ZuluSCSIはSCSI2SD V6と同じSCSIコマンド処理コードを使用しているため、SCSI-1とSCSI-2の両方に対応するほぼすべてのデバイスとの互換性は非常に高いです。
 
-Termination is DIP-switch controlled, and firmware updates are as simple as placing a file on a FAT32 or exFAT-formatted SD card, inserting it in the SD card slot, and applying power to the ZuluSCSI. A firmware recovery mechanism is also provided, as a back-up.
+ターミネーションはDIPスイッチで制御され、ファームウェアの更新は、FAT32またはexFATフォーマットのSDカードにファイルを置き、SDカードスロットに挿入してZuluSCSIの電源を入れるだけと簡単です。バックアップとしてファームウェアリカバリメカニズムも提供されています。

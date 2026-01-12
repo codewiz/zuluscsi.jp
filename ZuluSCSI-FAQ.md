@@ -1,15 +1,15 @@
 # ZuluSCSI FAQ
 
->What is the difference between ZuluSCSI V1.1 and ZuluSCSI 2040?
+>ZuluSCSI V1.1とZuluSCSI 2040の違いは何ですか？
 
-The microcontroller itself is the difference. The V1.x ZuluSCSI designs are based on a Chinese-manufactured STM32 clone, the GigaDevice GD32F205. This microcontroller is not readily available through any standard electronics distributors in the United States, and can only be special-ordered. It also costs more to buy, and the lead times are 6-8 weeks. The ZuluSCSI RP2040 is designed around the RP2040 microcontroller, a dual-core 133MHz Cortex M0+ MCU, which was designed by the Raspberry Pi Foundation, and released publicly in January of 2021.
+マイクロコントローラ自体が異なります。ZuluSCSI V1.xの設計は、中国で製造されたSTM32クローンであるGigaDevice GD32F205に基づいています。このマイクロコントローラは米国の標準的な電子部品代理店からは容易に入手できず、特別注文するしかありません。また、購入コストも高く、納期は6〜8週間かかります。ZuluSCSI RP2040は、Raspberry Pi Foundationによって設計され、2021年1月に一般公開されたデュアルコア133MHz Cortex M0+ MCUであるRP2040マイクロコントローラを中心に設計されています。
 
-Immediately after we finished the design of the ZuluSCSI V1.1 in January of this year, we began design of the ZuluSCSI RP2040. Back then, we had no way of knowing how it would perform, and (incorrectly, as it turned out) we assumed it would not perform as speedily as ZuluSCSI V1.1. ZuluSCSI RP2040 therefore began life as an experimental, back-burner "Plan B" project. We didn't even know if it would see the light of day, as a commercial product, back then.
+今年の1月にZuluSCSI V1.1の設計を完了した直後、私たちはZuluSCSI RP2040の設計を開始しました。当時は、そのパフォーマンスがどうなるかわからず、（結果的には間違いでしたが）ZuluSCSI V1.1ほど高速には動作しないだろうと想定していました。そのため、ZuluSCSI RP2040は実験的な、後回しの「プランB」プロジェクトとして始まりました。当時は、それが商用製品として日の目を見ることになるのかさえわかりませんでした。
 
-At the beginning of May, we received our first ZuluSCSI RP2040 engineering samples, and porting of the ZuluSCSI firmware itself began in earnest. A week later, we had the ZuluSCSI RP2040 minimally working as a SCSI device, albeit relatively slowly, around one megabyte per second, with no hardware acceleration.
+5月初旬、私たちは最初のZuluSCSI RP2040エンジニアリングサンプルを受け取り、ZuluSCSIファームウェア自体の移植が本格的に始まりました。1週間後には、ZuluSCSI RP2040はSCSIデバイスとして最低限動作するようになりましたが、ハードウェアアクセラレーションなしで約1メガバイト/秒と、比較的低速でした。
 
-By the end of August, we got the read performance slightly above that of ZuluSCSI V1.1 in asynchronous SCSI mode, but had not yet implemented synchronous SCSI support. By mid-september, we got synchronous SCSI support implemented in the ZuluSCSI RP2040, and the read performance is nothing short of astonishing. With a sufficiently fast bus and SCSI controller, the ZuluSCSI RP2040 can deliver data from the SD card to the SCSI bus at around 9.5 MB/sec. There were many bugs encountered along the way, and surely some remain, but we've made huge progress in addressing most of them in the last month+
+8月末までに、非同期SCSIモードでの読み取りパフォーマンスはZuluSCSI V1.1をわずかに上回りましたが、同期SCSIサポートはまだ実装されていませんでした。9月中旬までに、ZuluSCSI RP2040に同期SCSIサポートを実装し、その読み取りパフォーマンスは驚異的と言えるものでした。十分な速度のバスとSCSIコントローラがあれば、ZuluSCSI RP2040はSDカードからSCSIバスへ約9.5 MB/秒でデータを転送できます。その過程で多くのバグに遭遇し、まだいくつかは残っていますが、ここ1ヶ月以上でそのほとんどに対処し、大きな進歩を遂げました。
 
-It's important to point out that the SCSI controllers in most of the early Macintosh computers do not support synchronous SCSI, at the silicon level, and even the models that do mostly only support synchronous mode at 5 megabytes/sec, and not the faster 10 megabytes/second synchronous SCSI speed. In those cases, the bottleneck is the integrated SCSI controller in the Macintosh itself, not the ZuluSCSI.
+重要な点として、初期のMacintoshコンピュータのほとんどのSCSIコントローラは、シリコンレベルで同期SCSIをサポートしていません。サポートしているモデルでも、そのほとんどは高速な10メガバイト/秒の同期SCSI速度ではなく、5メガバイト/秒の同期モードのみをサポートしています。そのような場合、ボトルネックはZuluSCSIではなく、Macintosh自体の統合SCSIコントローラにあります。
 
-Read performance with the ZuluSCSI RP2040 can exceed 9 megabytes per second, with read speeds of up to five megabyte per second.
+ZuluSCSI RP2040での読み取りパフォーマンスは、9メガバイト/秒を超えることがあり、書き込み速度は最大5メガバイト/秒になります。

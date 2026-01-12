@@ -1,26 +1,26 @@
 <img src="assets/img/ZuluSCSI-Blaster-Rev2025f-iso.jpg" alt="ZuluSCSI Blaster PCB">
 
-ZuluSCSI® is a SCSI computer storage emulation platform, which speaks both SCSI-1 and SCSI-2. It uses file-based SCSI HDD & CD-ROM images. New for 2025, **ZuluSCSI Blaster** leverages the new RP2350B, which includes additional I/O capabilities, including optional Red Book CD Audio playback and Wi-Fi Ethernet for compatible classic Macintosh and Amiga computers. Hard drive and CD-ROM drive images are stored on a standard FAT32 or exFAT-formatted SD card, and are exposed as block devices to the operating system.
+ZuluSCSI®は、SCSI-1およびSCSI-2の両方に対応するSCSIコンピュータストレージエミュレーションプラットフォームです。ファイルベースのSCSI HDDおよびCD-ROMイメージを使用します。2025年の新製品である**ZuluSCSI Blaster**は、最新のRP2350Bを活用し、オプションのRed Book CDオーディオ再生や、互換性のあるClassic MacintoshおよびAmigaコンピュータ向けのWi-Fi Ethernetを含む、追加のI/O機能を提供します。ハードドライブおよびCD-ROMドライブのイメージは、標準的なFAT32またはexFATフォーマットのSDカードに保存され、ブロックデバイスとしてオペレーティングシステムに認識されます。
 
-## Features of ZuluSCSI Blaster
+## ZuluSCSI Blasterの特徴
 
-* Support for narrow **Ultra SCSI** (20MB/sec) timing, as well as SCSI-1 and SCSI-2
-* Up to **18 megabytes/second** read speeds, 11MB/sec write speeds (on ZuluSCSI Blaster-based models)
-* USB-C connector
-* Support for ROM drives of up to 15.8 **megabytes** in size. That's more than twelve 1.44MB floppy disks.
-* Emulates up to 7 SCSI devices simultaneously, including CD-ROM, Magneto Optical, removable (SyQuest/Jaz-style), and SCSI floppy device types
-* Optional [DaynaPORT SCSI Ethernet Wi-Fi emulation](https://github.com/ZuluSCSI/ZuluSCSI-firmware/wiki/WiFi-DaynaPORT-Ethernet-emulation) provided by plug-in RM2 radio module
-* Optional Red Book CD Audio emulation, via plug-in DAC board
-* Support for [SCSI Initiator Mode](https://github.com/ZuluSCSI/ZuluSCSI-firmware/wiki/ZuluSCSI-Initiator-Mode), which allows the ZuluSCSI Blaster to access the contents of SCSI drives via [USB Mass Storage](https://github.com/ZuluSCSI/ZuluSCSI-firmware/wiki/USB-Mass-Storage) over USB at USB 1.1 speeds
-* Firmware upgrade simplicity; As easy as placing a file on the SD card
-* Highly configurable using a text-based ini file, ZuluSCSI.ini
-* External activity LED pin header for attaching remote activity LED
-* Designed to be powered via SCSI termination power when provided by the host
-* SCSI Termination is DIP-switch controlled
+* ナロー**Ultra SCSI** (20MB/sec) タイミング、およびSCSI-1、SCSI-2のサポート
+* 最大**18 MB/sec**の読み取り速度、11 MB/secの書き込み速度 (ZuluSCSI Blasterベースのモデル)
+* USB-Cコネクタ
+* 最大15.8 **MB**のROMドライブをサポート（1.44MBフロッピーディスク12枚分以上）
+* CD-ROM、光磁気ディスク (MO)、リムーバブルメディア (SyQuest/Jazスタイル)、SCSIフロッピーなど、最大7台のSCSIデバイスを同時にエミュレート
+* オプションのRM2ラジオモジュールプラグインによる[DaynaPORT SCSI Ethernet Wi-Fiエミュレーション](https://github.com/ZuluSCSI/ZuluSCSI-firmware/wiki/WiFi-DaynaPORT-Ethernet-emulation)
+* オプションのDACボードプラグインによるRed Book CDオーディオエミュレーション
+* [SCSIイニシエータモード](https://github.com/ZuluSCSI/ZuluSCSI-firmware/wiki/ZuluSCSI-Initiator-Mode)のサポート（ZuluSCSI BlasterがUSB経由でSCSIドライブの内容に[USBマスストレージ](https://github.com/ZuluSCSI/ZuluSCSI-firmware/wiki/USB-Mass-Storage)としてUSB 1.1速度でアクセス可能）
+* ファームウェア更新は簡単です。SDカードにファイルを置くだけです
+* テキストベースのiniファイル (ZuluSCSI.ini) を使用して高度に設定可能
+* リモートアクセスLEDを取り付けるための外部アクセスLEDピンヘッダー
+* ホストから供給される場合、SCSIターミネーションパワーでの動作が可能
+* SCSIターミネーションはDIPスイッチで制御
 
-#### Firmware origins & license
+#### ファームウェアの起源とライセンス
 
-The open source [ZuluSCSI® firmware](https://github.com/zuluscsi/zuluscsi-firmware), licensed under the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html) is derived from two sources, both under GPL 3 license:
+オープンソースの[ZuluSCSI®ファームウェア](https://github.com/zuluscsi/zuluscsi-firmware)は、[GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)の下でライセンスされており、以下の2つのGPL 3ライセンスソースから派生しています。
 
 * [SCSI2SD V6](http://www.codesrc.com/gitweb/index.cgi?p=SCSI2SD-V6.git;a=summary)
-* [BlueSCSI V1](https://github.com/erichelgeson/BlueSCSI), which in turn is derived from [ArdSCSIno-stm32](https://github.com/ztto/ArdSCSino-stm32).
+* [BlueSCSI V1](https://github.com/erichelgeson/BlueSCSI) (これは[ArdSCSIno-stm32](https://github.com/ztto/ArdSCSino-stm32)から派生しています)
