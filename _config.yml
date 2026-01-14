@@ -4,16 +4,16 @@
 # remote_theme: pages-themes/time-machine@v0.2.0
 # remote_theme: pages-themes/leap-day@v0.2.0
 
-title: ZuluSCSI - A hardware SCSI HDD & CD-ROM emulator
+title: ZuluSCSI - ハードウェアSCSI HDD＆CD-ROMエミュレータ
 # description: ZuluSCSI is an Open Source SCSI HDD & CD-ROM emulator, based on BlueSCSI and SCSI2SD V6 SCSI command handling code
 author: Rabbit Hole Computing
 
 navbar-links:
-  About ZuluSCSI: "aboutzulu"
-  Where to Buy: "wheretobuy"
-  Resources:
-    - ZuluSCSI Manual: "https://github.com/ZuluSCSI/ZuluSCSI-firmware/wiki/ZuluSCSI-Manual"
-    - ZuluSCSI Firmware: "https://github.com/ZuluSCSI/ZuluSCSI-firmware"
+  ZuluSCSIについて: "aboutzulu"
+  購入先: "wheretobuy"
+  リソース:
+    - ZuluSCSI マニュアル: "https://github.com/ZuluSCSI/ZuluSCSI-firmware/wiki/ZuluSCSI-Manual"
+    - ZuluSCSI ファームウェア: "https://github.com/ZuluSCSI/ZuluSCSI-firmware"
 
 # --- Logo --- #
 
