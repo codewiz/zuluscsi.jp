@@ -14,6 +14,10 @@
 #### ドイツ / EU
 * [Studio Services](https://studio-services.de/produkt-kategorie/scsi-massenspeicher-und-zubehoer/)
 
+#### ベルギー / EU
+* [Serdashop](https://www.serdashop.com/ZuluSCSI-Blaster)
+
+
 #### オーストラリア
 * [Juicy Crumb Systems](https://juicycrumb.com/product-category/scsi/zuluscsi/)
   * 2024年12月現在、Juicy Crumb Systemsは[ZuluSCSI Pico Slim](https://juicycrumb.com/product/zuluscsi-pico-slim-db25/?v=0b3b97fa6688)の在庫を取り扱っています

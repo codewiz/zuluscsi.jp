@@ -1,4 +1,4 @@
-<img src="assets/img/ZuluSCSI-Blaster-Rev2025f-iso.jpg" alt="ZuluSCSI Blaster PCB">
+<a href="https://shop.rabbitholecomputing.com/collections/zuluscsi"><img src="assets/img/ZuluSCSI-Blaster-Rev2026c-iso-cropped.jpg" alt="ZuluSCSI Blaster PCB"></a>
 
 ZuluSCSI®は、SCSI-1およびSCSI-2の両方に対応するSCSIコンピュータストレージエミュレーションプラットフォームです。ファイルベースのSCSI HDDおよびCD-ROMイメージを使用します。2025年の新製品である**ZuluSCSI Blaster**は、最新のRP2350Bを活用し、オプションのRed Book CDオーディオ再生や、互換性のあるClassic MacintoshおよびAmigaコンピュータ向けのWi-Fi Ethernetを含む、追加のI/O機能を提供します。ハードドライブおよびCD-ROMドライブのイメージは、標準的なFAT32またはexFATフォーマットのSDカードに保存され、ブロックデバイスとしてオペレーティングシステムに認識されます。
 
