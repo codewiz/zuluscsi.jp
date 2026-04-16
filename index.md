@@ -14,7 +14,7 @@ ZuluSCSI®は、SCSI-1およびSCSI-2の両方に対応するSCSIコンピュー
 * [SCSIイニシエータモード](https://github.com/ZuluSCSI/ZuluSCSI-firmware/wiki/ZuluSCSI-Initiator-Mode)のサポート（ZuluSCSI BlasterがUSB経由でSCSIドライブの内容に[USBマスストレージ](https://github.com/ZuluSCSI/ZuluSCSI-firmware/wiki/USB-Mass-Storage)としてUSB 1.1速度でアクセス可能）
 * ファームウェア更新は簡単です。SDカードにファイルを置くだけです
 * テキストベースのiniファイル (ZuluSCSI.ini) を使用して高度に設定可能
-* リモートアクセスLEDを取り付けるための外部アクセスLEDピンヘッダー
+* 外付けアクセスLEDを取り付けるためのピンヘッダー
 * ホストから供給される場合、SCSIターミネーションパワーでの動作が可能
 * SCSIターミネーションはDIPスイッチで制御
 
