@@ -14,4 +14,4 @@ docker run --rm --name "$NAME" \
   -e JEKYLL_UID=$(id -u) \
   -e JEKYLL_GID=$(id -g) \
   jekyll/jekyll:latest \
-  sh -c "bundle install --path vendor/bundle && bundle exec jekyll serve --host 0.0.0.0"
+  sh -c "bundle config set --local path vendor/bundle && bundle install && bundle exec jekyll serve --host 0.0.0.0"
