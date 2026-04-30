@@ -9,11 +9,14 @@ title: ZuluSCSI - ハードウェアSCSI HDD＆CD-ROMエミュレータ
 author: Rabbit Hole Computing
 
 navbar-links:
-  ZuluSCSIについて: "aboutzulu"
   購入先: "wheretobuy"
+  ZuluSCSIについて: "aboutzulu"
   リソース:
     - ZuluSCSI マニュアル: "https://github.com/ZuluSCSI/ZuluSCSI-firmware/wiki/ZuluSCSI-Manual"
     - ZuluSCSI ファームウェア: "https://github.com/ZuluSCSI/ZuluSCSI-firmware"
+
+site-css:
+  - "/assets/css/custom.css"
 
 # --- Logo --- #
 
