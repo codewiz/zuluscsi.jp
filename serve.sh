@@ -13,4 +13,5 @@ docker run --rm --name "$NAME" \
   -p 4000:4000 \
   -e JEKYLL_UID=$(id -u) \
   -e JEKYLL_GID=$(id -g) \
-  jekyll/jekyll:latest jekyll serve
+  jekyll/jekyll:latest \
+  sh -c "bundle install --path vendor/bundle && bundle exec jekyll serve --host 0.0.0.0"
