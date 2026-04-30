@@ -1,14 +1,21 @@
-.navbar-custom .nav-link.nav-link-cta {
+.navbar-custom .navbar-nav .nav-link.nav-link-cta {
   background-color: #d32f2f;
   color: #fff !important;
   border-radius: 4px;
-  font-weight: bold;
   margin: 0 6px;
+  padding-left: 1rem;
+  padding-right: 1rem;
   transition: background-color 0.15s ease;
 }
 
-.navbar-custom .nav-link.nav-link-cta:hover,
-.navbar-custom .nav-link.nav-link-cta:focus {
+.navbar-custom .navbar-nav .nav-link.nav-link-cta:hover,
+.navbar-custom .navbar-nav .nav-link.nav-link-cta:focus {
   background-color: #b71c1c;
   color: #fff !important;
+}
+
+.navbar-custom .nav-item.dropdown .dropdown-menu {
+  min-width: 12rem;
+  word-break: normal;
+  overflow-wrap: normal;
 }

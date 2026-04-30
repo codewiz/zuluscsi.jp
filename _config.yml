@@ -10,8 +10,8 @@ author: Rabbit Hole Computing
 
 navbar-links:
   購入先: "wheretobuy"
-  ZuluSCSIについて: "aboutzulu"
   リソース:
+    - ZuluSCSIについて: "aboutzulu"
     - ZuluSCSI マニュアル: "https://github.com/ZuluSCSI/ZuluSCSI-firmware/wiki/ZuluSCSI-Manual"
     - ZuluSCSI ファームウェア: "https://github.com/ZuluSCSI/ZuluSCSI-firmware"
 
