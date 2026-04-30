@@ -1,5 +1,8 @@
 ##### ZuluSCSIの購入先
 
+#### 日本
+* [Retro Mirai](https://shop.retromirai.jp/) - 日本国内の正規販売代理店
+
 #### アメリカ
 * [Rabbit Hole Computing (カリフォルニア)](https://shop.rabbitholecomputing.com/collections/zuluscsi) - 開発元からの直接販売
 * [SamplerZone.com (テネシー州)](https://samplerzone.com/collections/zuluscsi) - 音楽サンプラー専門店
